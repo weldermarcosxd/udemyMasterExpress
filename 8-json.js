@@ -9,7 +9,7 @@ app.get('/books', function (req, res) {
       console.error('Erroo: ' + err);
     }else {
       json = JSON.parse(data);
-      res.json(json);
+      res.json(json); 
     }
   })
 })
