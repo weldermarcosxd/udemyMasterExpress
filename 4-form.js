@@ -1,4 +1,4 @@
-var bodyparser = require('body-parser')
+var bodyparser = require('body-parser');
 var express = require('express');
 var app = express();
 
